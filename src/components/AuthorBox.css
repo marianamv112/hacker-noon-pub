@@ -1,0 +1,44 @@
+.cardBody {
+    text-align: left;
+}
+
+.authorProfilePic {
+    max-width: 75px;
+    object-fit: cover;
+    box-shadow: rgb(194 202 214) 0px 0.2em, rgb(194 202 214) 0px -0.2em, rgb(194 202 214) 0.2em 0px, rgb(194 202 214) -0.2em 0px;
+}
+
+.authorHeader {
+    display: flex;
+    flex-direction: column
+}
+
+.authorBio {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    word-break: break-word;;
+}
+
+
+.authorLink {
+    outline: none;
+    background-color: transparent;
+    padding: 2px 0px 1px;
+    transition: all 120ms ease-in-out 0s, padding 120ms ease-in-out 0s;
+    word-break: break-word;
+    background-image: linear-gradient(transparent 0%, transparent calc(50% - 9px), rgba(0, 255, 0, 0.35) calc(50% - 9px), rgba(0, 255, 0, 0.35) 100%);
+    background-position: 0px 0px;
+    background-size: 100% 200%;
+}
+
+.cardBody a {
+    margin-left: 0px;
+    text-decoration: none;
+}
+
+h3 small {
+    margin-top: 0.5rem;
+    font-size: 80%;
+}

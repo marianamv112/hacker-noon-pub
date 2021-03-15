@@ -1,0 +1,26 @@
+.social-buttons-container {
+    display: flex;
+  }
+
+  .social-media-icon {
+    max-width: 20px;
+  }
+  
+  .email-icon {
+    max-width: 20px;
+    position: relative;
+    top: 2px;
+  }
+
+  .share-button {
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    background: none;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 15px;
+  }

@@ -1,0 +1,24 @@
+
+.topAd-container {
+position: relative;
+background-color: rgb(245, 236, 67);
+font-family: "IBM Plex Mono", monospace;
+font-weight: bold;
+font-size: 1.2rem;
+z-index: 3;
+font-size: 1rem;
+}
+
+.topAd-container a {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: rgb(102, 97, 5) !important;
+}
+
+.topAd-container img {
+    margin-right: 10px;
+    width: 25px;
+    border-radius: 2px;
+}

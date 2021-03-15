@@ -1,0 +1,23 @@
+.tagBadge {
+    font-size: 1.4rem;
+    font-family: "IBM Plex Mono", monospace;
+    background: rgb(246, 247, 249);
+    color: rgb(60, 60, 59);
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: auto;
+    line-height: 1em;
+    box-shadow: rgb(194 202 214) 0px 0.2em, rgb(194 202 214) 0px -0.2em, rgb(194 202 214) 0.2em 0px, rgb(194 202 214) -0.2em 0px;
+    padding: 10px;
+    font-size: 0.9rem;
+    margin: 0px 10px 10px 0px;
+}
+
+.tagBadge:hover {
+    box-shadow: rgb(0, 204, 102) 0px 0.2em, rgb(0, 204, 102) 0px -0.2em, rgb(0, 204, 102) 0.2em 0px, rgb(0, 204, 102) -0.2em 0px;
+    background: rgb(0, 255, 0);
+}
+

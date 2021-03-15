@@ -1,0 +1,8 @@
+.image-main[heartActive="1"],
+.image-main[lightActive="1"],
+.image-main[moneyActive="1"],
+.image-main[boatActive="1"] {
+  filter: none;
+  opacity: 1;
+}
+

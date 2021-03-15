@@ -1,0 +1,91 @@
+.paragraph-reactions-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.bar {
+  background-color: rgb(234, 234, 234);
+  width: 10px;
+  height: 6px;
+  margin: 1px 0px;
+}
+
+.actions {
+  flex-grow: 1;
+  opacity: 0;
+  transition: all 1000ms ease-in-out 0s;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  align-items: center;
+}
+
+.paragraph-reactions-container .image-main {
+  filter: grayscale(1);
+  opacity: 0.5;
+  transform: scale(0.8);
+  transition: all 120ms ease-in-out 0s;
+  cursor: pointer;
+}
+
+
+.paragraph-reactions-container .emojis {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 1000ms ease-in-out 0s
+}
+
+.paragraph-reactions-container .emojis[isShown="1"] {
+  visibility: visible;
+  opacity: 1;
+}
+
+.reactions-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 5px;
+  position: relative;
+}
+
+.reaction-count {
+  position: absolute;
+  display: none;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: bold;
+  top: -3px;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+
+.reaction-count[heartActive="1"],
+.reaction-count[lightActive="1"],
+.reaction-count[boatActive="1"],
+.reaction-count[moneyActive="1"]
+{
+  display: block
+}
+
+.reactions-container .image-main:hover,
+.reactions-container .image-main[heartActive="1"],
+.reactions-container .image-main[lightActive="1"],
+.reactions-container .image-main[moneyActive="1"],
+.reactions-container .image-main[boatActive="1"] {
+  filter: none;
+  opacity: 1;
+  transform: scale(1.0);
+}
+
+/* Responsiveness */
+@media screen and (max-width: 768px) { 
+  .paragraph-reactions-container {
+    display: none
+  }
+}

@@ -1,0 +1,98 @@
+.relatedArticle {
+  border-radius: 2px;
+  border: 2px solid rgb(246, 247, 249);
+  flex: 1;
+  margin: 10px;
+}
+
+.relatedArticle .card-header {
+  height: 25%;
+}
+
+.relatedArticle h2 {
+  font-size: 1.3rem;
+  align-self: flex-end;
+  margin: 0px;
+  padding: 10px;
+  text-align: left;
+}
+
+.card-body .card-image {
+  height: 200px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.card-body {
+  position: relative;
+}
+
+.card-body .tag-container {
+  position: absolute;
+  margin: 0px;
+  right: 20px;
+  bottom: 25px;
+  z-index: 1;
+}
+
+.card-image-wrapper {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.card-image-wrapper .related-article-image {
+  display: block;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+  max-width: 100%;
+  padding: 0;
+  transition: transform 200ms ease-in-out 0s;
+}
+
+.card-image-wrapper a:hover {
+  transform: scale(1.05);
+}
+
+.card-reactions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(246, 247, 249);
+  padding: 5px 0px;
+  width: 100%;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-footer h3 {
+  text-align: left;
+}
+
+.card-footer .time {
+  text-align: right;
+}
+
+.card-footer .time p {
+  margin: 0;
+}
+
+.profile .authorProfilePic {
+  margin: 20px;
+}

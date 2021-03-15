@@ -1,0 +1,17 @@
+.share p {
+  font-size: 1rem;
+}
+
+.share {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+}
+
+
